@@ -33,7 +33,13 @@ int main()
 				 cout << "off" << endl;
 				 delay(100);
 			 }
-	
+			 else
+			 {
+				 digitalWrite(1, 0);
+				 cout << "on" << endl;
+				 delay(200)
+			 }
+
 	//Motor 2
 			 if (state == 2 or state == 3 or state == 6 or state == 7)
 			 {
@@ -45,6 +51,13 @@ int main()
 				 cout << "off" << endl;
 				 delay(100);
 			 }
+			 else
+			 {
+				 digitalWrite(2, 0);
+				 cout << "on" << endl;
+				 delay(200)
+			 }
+
 	//Motor 3
 			if (state == 4 or state == 5 or state == 6 or state == 7)
 			{
@@ -55,6 +68,12 @@ int main()
 					digitalWrite(3, 0);
 				cout << "off" << endl;
 				delay(100);
+			}
+			else
+			{
+				digitalWrite(3, 0);
+				cout << "on" << endl;
+				delay(200)
 			}
 
 
